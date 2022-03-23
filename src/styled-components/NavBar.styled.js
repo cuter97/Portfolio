@@ -59,7 +59,7 @@ export const NavContainer = styled.div`
         display: none;
     }
 
-    @media(max-width: 750px) {
+    @media(max-width: 850px) {
         justify-content: space-between;
         margin: 3rem 4rem; 
         .toggler{
