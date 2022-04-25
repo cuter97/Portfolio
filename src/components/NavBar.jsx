@@ -25,7 +25,7 @@ const NavBar = (props) => {
             </div>
             <ul className={nav === true ? 'list active' : 'list'}>
                 <li>
-                    <a href="#">Works</a>
+                    <a href="#WORKS">Works</a>
                 </li>
                 <li>
                     <a href="#">About Me</a>

@@ -1,13 +1,8 @@
 import { HeaderContainer, TextContainer } from "../styled-components/Header.styled"
 import { withTheme } from "styled-components"
-import Logo from '../imagenes/developer.jpg'
-import LogoDark from '../imagenes/developerDark.jpg'
+import Img from "../imagenes/header-img.png"
 
-const Header = (props) => {
-
-    const imagen = props.theme === 'light' ? Logo : LogoDark
-
-
+const Header = () => {
     return (
         <HeaderContainer>
             <TextContainer className="text-container">
@@ -17,7 +12,7 @@ const Header = (props) => {
                 </h1>
                 <p>Front End React developer | Engineering student.</p>
             </TextContainer>
-            <img className="img-header" src={imagen} alt="logo"/>
+            <img className="img-header" src={Img} alt="logo"/>
         </HeaderContainer>
     )
 }

@@ -2,8 +2,11 @@ import { useState } from 'react'
 import { ThemeProvider } from 'styled-components'
 import Header from './components/Header'
 import NavBar from './components/NavBar'
+import { CardContent } from './styled-components/CardsContainer.styled'
 import { GlobalStyles } from './styled-components/GlobalThemes'
 import { dark, light } from './styled-components/theme'
+import Cardcontainer from './components/Cardcontainer'
+import './sass/style.scss'
 
 const App = () => {
 
@@ -13,9 +16,15 @@ const App = () => {
 
     return (
         <ThemeProvider theme={themes[theme]}>
-            <NavBar theme={theme} setTheme={setTheme} />
-            <Header theme={theme} />
-            <GlobalStyles/>
+            <div className='header-container'>
+                <NavBar theme={theme} setTheme={setTheme} />
+                <Header />
+            </div>
+            <CardContent id='WORKS'>
+                <p className='text-tittle'>View some of my recent work</p>
+                <Cardcontainer />
+            </CardContent>
+            <GlobalStyles />
         </ThemeProvider>
     )
 }
