@@ -37,4 +37,11 @@ export const InfoContainer = styled.div`
             color: ${props => props.theme.text};
         }
     }
+
+    @media screen and (min-width: 0px) and (max-width: 920px) {
+        padding: 7rem 1rem;
+        p{
+            font-size: medium;
+        }
+    }
 `;
