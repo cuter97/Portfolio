@@ -11,6 +11,11 @@ export const dark = {
 
     //header colors
     letter: "hsl(1, 99%, 36%)",
+    //cards
+    box: "0px 0px 3px rgba(255, 255, 255, 0.8)",
+    bgCard: "#212939",
+    //footer
+    footer: "2px solid #fff",
 }
 
 export const light = {
@@ -23,7 +28,12 @@ export const light = {
     buttonTheme: "hsl(48, 89%, 50%)",
     hoverTextMob: "hsl(184, 6%, 53%)",
     mobToggler: "hsl(163, 0%, 0%)",
-
+    
     //header colors
     letter: "hsl(1, 99%, 36%)",
+    //cards
+    box: "0px 0px 5px rgba(0, 0, 0, 0.8)",
+    bgCard: "#fff",
+    //footer
+    footer: "2px solid rgba(0, 0, 0, 0.8)",
 }

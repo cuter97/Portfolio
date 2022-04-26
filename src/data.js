@@ -28,7 +28,7 @@ export const data = [
     },
     {
         id: 4,
-        tittle: "JS Projet",
+        tittle: "JS Project",
         description: "This project was a front end mentor challenge. The challenge is to integrate the rel.ink API into a web user interface to create shortened URLs. They should be displayed according to the proposed design. I took this chance to get some more experience with asynchronous JavaScript.",
         tags: ["CSS3", "HTML", "JavaScript", "API"],
         tools: ["Sass", "Bootstrap", "JQuery"],

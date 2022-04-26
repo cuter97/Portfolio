@@ -5,7 +5,7 @@ export const HeaderContainer = styled.div`
     max-width: 1200px;
     align-items: center;
     justify-content: center;
-    margin: 5.5rem auto;
+    margin: 7rem auto;
 
     img{
         width: 37.125rem;
@@ -17,6 +17,7 @@ export const HeaderContainer = styled.div`
     }
 
     @media screen and (min-width: 0px) and (max-width: 768px) {
+        margin: 0;
         flex-direction: column;
         .text-container{
             margin: 0;
@@ -29,7 +30,9 @@ export const HeaderContainer = styled.div`
     }
 
     @media screen and (min-width: 769px) and (max-width: 1048px) {
+        flex-direction: column;
         .text-container{
+            padding-bottom: 2rem;
             h1{font-size: 2.6rem;}
             p{font-size: .8rem;}
         }

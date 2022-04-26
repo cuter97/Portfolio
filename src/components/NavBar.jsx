@@ -28,10 +28,10 @@ const NavBar = (props) => {
                     <a href="#WORKS">Works</a>
                 </li>
                 <li>
-                    <a href="#">About Me</a>
+                    <a href="#INFO">About Me</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#CONTACT">Contact</a>
                 </li>
             </ul>
             <div className='button-theme' onClick={handlerTheme}>

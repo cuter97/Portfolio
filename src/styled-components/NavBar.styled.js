@@ -15,7 +15,8 @@ export const NavContainer = styled.div`
             a{
                 text-decoration: none;
                 color: ${props => props.theme.text};
-                font-weight: 400;
+                font-weight: 500;
+                font-size: 20px;
                 position: relative;
                 &:hover{
                     color: ${props => props.theme.hoverText};
