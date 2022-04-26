@@ -13,7 +13,6 @@ export const HeaderContainer = styled.div`
         max-inline-size: 100%;
         block-size: auto;
         margin-left: 5rem;
-        /* transition-duration: .4s; */
     }
 
     @media screen and (min-width: 0px) and (max-width: 768px) {

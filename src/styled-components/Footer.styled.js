@@ -112,9 +112,6 @@ export const FooterContainer = styled.footer`
                 }
             }
         }
-        /* .mail-icon{
-            font-size: 20px;
-        } */
     }
 
 

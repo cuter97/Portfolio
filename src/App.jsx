@@ -8,7 +8,6 @@ import { dark, light } from './styled-components/theme'
 import Cardcontainer from './components/Cardcontainer'
 import Info from './components/Info'
 import Footer from './components/Footer'
-// import './sass/style.scss'
 
 const App = () => {
 

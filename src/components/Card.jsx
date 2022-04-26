@@ -25,7 +25,6 @@ const Card = ({ id }) => {
                     </motion.div>
 
                     <motion.div className="card-info" layoutId={`card-info-${id}`}>
-                        {/* <motion.div className="card-info" layout='position'> */}
                         <h2>{tittle}</h2>
                         <p>{description}</p>
 
