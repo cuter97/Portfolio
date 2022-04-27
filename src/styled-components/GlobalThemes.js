@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     
     body{
         background-color: ${props => props.theme.bg};
-        transition: all .4s;
+        transition: .4s;
     }
 
     .header-container{
