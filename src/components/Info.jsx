@@ -1,6 +1,6 @@
 import React from 'react'
 import { InfoContainer } from '../styled-components/Info.styled'
-import pdf from '../pdf/curriculum.pdf'
+import pdf from '../pdf/Curriculum-Agustin.pdf'
 import  { VscFilePdf } from 'react-icons/vsc'
 const Info = () => {
     return (
